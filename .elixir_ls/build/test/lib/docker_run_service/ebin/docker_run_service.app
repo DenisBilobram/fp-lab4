@@ -1,0 +1,9 @@
+{application,docker_run_service,
+             [{config_mtime,1737806431},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"docker_run_service"},
+              {modules,['Elixir.DockerTestService',
+                        'Elixir.DockerTestService.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
