@@ -144,6 +144,20 @@
 
 ## Пример работы
 ### Client
+- test/tests1
+```
+INPUT:1 2 3
+OUTPUT:6
+INPUT:4 5 6
+OUTPUT:15
+INPUT:10 20 30
+OUTPUT:60
+```
+- test/solution.py
+```
+print(sum(map(int, input().split())))
+```
+- example of usage
 ```
 PS C:\Users\denis\Documents\fp-lab4> python submit_solution.py test/solution.py test/tests1
 Результаты тестирования:
